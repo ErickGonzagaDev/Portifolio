@@ -85,6 +85,11 @@ main>section#linguagens {
 
 }
 
+main>section#linguagens a{
+    text-decoration: none;
+    color: transparent;
+}
+
 main>section#linguagens>h2 {
     border: solid 1px black;
     width: 400px;
