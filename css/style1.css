@@ -92,8 +92,10 @@ main>section#linguagens a{
 
 main>section#linguagens>h2 {
     border: solid 1px black;
-    width: 400px;
+    text-align: center;
     padding: 10px;
+    max-width: 400px;
+    
     border-radius: 20px 20px;
     font-size: 1.9em;
     margin: auto;
@@ -102,9 +104,10 @@ main>section#linguagens>h2 {
 
 }
 
-main>section#linguagens > h2#linguagens-aprendendo{
-    width: 200px;
+section#linguagens h2#linguagens-aprendendo{
+    max-width: 200px;
 }
+
 
 main>section#linguagens>h2:hover{
     background-color: rgb(141, 186, 141);
@@ -141,7 +144,7 @@ main>section#sobre-mim h2 {
 }
 
 main>section#sobre-mim > p {
-    padding: 50px;
+    padding: 10px;
     text-align: justify;
     font-size: 1.2em;
 }
@@ -163,6 +166,7 @@ footer{
     text-align: center;
     color: white;
 }
+
 
 
 
