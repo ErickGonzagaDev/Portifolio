@@ -106,6 +106,14 @@ header {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    transition: 2px;
+}
+
+.container-card .card:hover {
+opacity: 0.7;
+cursor: pointer;
+
+
 }
 
 .contain-name-status {
@@ -124,6 +132,7 @@ header {
 
 .contain-name-status #status {
     border: 1px solid black;
+    color: black;
     padding: 2px 6px;
     border-radius: 20px;
 }
@@ -133,6 +142,7 @@ header {
     flex-wrap: wrap;
     align-items: center;
     gap: 10px;
+    color: black;
 }
 
 .bolinha {

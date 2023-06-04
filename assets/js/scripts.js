@@ -58,10 +58,15 @@ async function pegaRepositorio() {
         const update = document.createElement('p')
         update.id = 'update'
         update.innerText = 'Last update: ' + data.updated_at.slice(0, 10)
+        
+        const link = document.createElement('a')
+        link.href = (data.html_url)
 
 
 
         containerCard.appendChild(divCard)
+        containerCard.appendChild(link)
+        link.appendChild(divCard)
         divCard.appendChild(divContainNS)
         divContainNS.appendChild(nameRepository)
         divContainNS.appendChild(status)
