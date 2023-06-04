@@ -1,0 +1,156 @@
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+
+}
+
+a {
+    color: white;
+    padding: 10px;
+}
+
+body {
+    height: 100vh;
+    background-color: #070802   ;
+    box-shadow:unset 10px 10px 10px white ;
+
+}
+
+
+header {
+    background-color: #1f240a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+
+
+}
+
+#nav-bar ul {
+    display: flex;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#nav-bar ul li {
+    margin: 0px 20px;
+    padding: 10px;
+    position: relative;
+}
+
+#nav-bar ul li:hover {
+    opacity: .8;
+    background-color:transparent;
+    border-radius: 10px;
+}
+
+#nav-bar ul li::before {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    width: 50px;
+    height: 3px;
+    background-color: #97af37;
+}
+
+
+#myImage img {
+    width: 40vw;
+    max-width: 300px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.nome {
+    background-color: rgba(255, 255, 255, 0.277);
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.nome p{
+    margin-bottom: 10px;
+    color: white;
+}
+
+
+
+.container-card {
+    margin-top: 30px;
+    display: flex;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container-card .card {
+    border: 1px solid white;
+    box-shadow: 2px 5px 10px rgba(255, 255, 255, 0.178);
+    position: relative;
+    margin: 10px;
+    background-color: #97af37;
+    width: 400px;
+    height: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contain-name-status {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.contain-name-status h1 {
+    font-weight: 300;
+    background-color: rgba(255, 255, 255, 0.438);
+    padding: 1px 8px;
+    border-radius: 10px;
+}
+
+.contain-name-status #status {
+    border: 1px solid black;
+    padding: 2px 6px;
+    border-radius: 20px;
+}
+
+.contain-linguagem-update {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.bolinha {
+    background-color: orangered;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+footer{
+    background-color: #1f240a;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+footer p{
+    margin: 10px 0px;
+    padding: 5px;
+}
