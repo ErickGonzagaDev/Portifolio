@@ -106,10 +106,12 @@ header {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    transition: 2px;
+    transition: .5s ease-in-out;
 }
 
 .container-card .card:hover {
+
+    top: -10px;
 opacity: 0.7;
 cursor: pointer;
 
